@@ -1,16 +1,14 @@
 {
   "id": "com.niloy.ctgmovies",
-  "icon": "https://raw.githubusercontent.com/streamparser/extensions/master/media/icons/ctgmovies.png",
-  "version": "1.0",
-  "catalog": {
-    "items": [
-      {
-        "id": "ctgmovies.com",
-        "name": "CTGMovies",
-        "description": "Stream Movies and TV Shows",
-        "poster": "https://raw.githubusercontent.com/streamparser/extensions/master/media/icons/ctgmovies.png",
-        "background": "https://raw.githubusercontent.com/streamparser/extensions/master/media/icons/ctgmovies.png"
-      }
-    ]
-  }
+  "version": "1.0.0",
+  "name": "CTGMovies",
+  "description": "Stream Movies and TV Shows from CTGMovies",
+  "logo": "https://raw.githubusercontent.com/streamparser/extensions/master/media/icons/ctgmovies.png",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["movie", "series"],
+  "idPrefixes": ["ctg:"],
+  "catalogs": [
+    { "type": "movie", "id": "ctg-movies", "name": "CTGMovies", "extra": [{ "name": "search" }] },
+    { "type": "series", "id": "ctg-series", "name": "CTGMovies Series", "extra": [{ "name": "search" }] }
+  ]
 }
