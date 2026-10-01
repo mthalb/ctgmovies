@@ -2,8 +2,9 @@
   "name": "ctgmovies-stremio",
   "version": "1.0.0",
   "description": "Stremio addon for CTGMovies",
-  "main": "index.js",
+  "main": "api/index.js",
   "dependencies": {
+    "stremio-addon-sdk": "^1.6.10",
     "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12"
   }
