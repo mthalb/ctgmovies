@@ -1,0 +1,10 @@
+{
+  "name": "ctgmovies-stremio",
+  "version": "1.0.0",
+  "description": "Stremio addon for CTGMovies",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
